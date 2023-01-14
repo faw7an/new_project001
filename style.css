@@ -1,7 +1,8 @@
 .img{
-	width: 350px;
+	width: 400px;
 	height: 340px;
-	
+	margin: 20px;
+	align-items: center;
 
 }
 .img1{
@@ -11,7 +12,7 @@
 	
 }
 .label{
-	background-color: teal;
+	background: linear-gradient(25deg , teal , violet);
 	padding: 20px 0px 10px 0px;
 	font-family: algeria;
 	font-weight: bold;
@@ -29,7 +30,7 @@
 	flex-direction: row;
 	align-items: flex-end;
 	justify-content: space-around;
-	background-color: violet;
+	background: linear-gradient(25deg , teal , violet);
 	font-family: times new roman;
 	font-size: 20px;
 	padding: 10px 0px 5px 0px;
@@ -37,6 +38,7 @@
 	position: relative;
 	bottom: 20px;
 	right: 20px;
+	color: whitesmoke;
 }
 .img2{
 	font-size: 20px;
@@ -53,13 +55,7 @@
 	border-color: transparent;
 	width:550px;
 }
-.womenh2{
-	font-size: 25px;
-	position: absolute;
-	right: 350px;
-	top: 550px;
 
-}
 .order{
 	font-size: 25px;
 	position: absolute;
@@ -91,4 +87,8 @@
 }
 .order::before{
 	transform: scale(1) skew(35deg);
+}
+html{
+	background: linear-gradient(24deg , #101517 , #1d2327);
+
 }
