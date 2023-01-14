@@ -1,0 +1,94 @@
+.img{
+	width: 350px;
+	height: 340px;
+	
+
+}
+.img1{
+	height: 60%;
+	width: 60%;
+	justify-content: center;
+	
+}
+.label{
+	background-color: teal;
+	padding: 20px 0px 10px 0px;
+	font-family: algeria;
+	font-weight: bold;
+	position: relative;
+	bottom: 18px;
+	right: 7px;
+	color: white;
+	border-radius: 20px 0px 20px 0px;
+	font-size: 40px;
+	text-align: center;
+
+}
+.nav1{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-around;
+	background-color: violet;
+	font-family: times new roman;
+	font-size: 20px;
+	padding: 10px 0px 5px 0px;
+	border-radius: 20px;
+	position: relative;
+	bottom: 20px;
+	right: 20px;
+}
+.img2{
+	font-size: 20px;
+	width: 150px;
+	height: 150px;
+}
+.men1{
+	font-size: 50px;
+	position: relative;
+	left: 825px;
+	bottom: 800px;
+	color: dark-pink;
+	border: solid 2px;
+	border-color: transparent;
+	width:550px;
+}
+.womenh2{
+	font-size: 25px;
+	position: absolute;
+	right: 350px;
+	top: 550px;
+
+}
+.order{
+	font-size: 25px;
+	position: absolute;
+	right: 200px;
+	top: 900px;
+	padding: 5px 20px 5px 20px;
+	background-color: lightgreen;
+	border-radius: 10px;
+	color: white;
+	overflow: hidden;
+	transition: color 1s;
+	width: 300px;
+
+}
+.order:hover{
+	color: #090909;
+
+}
+.order::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -50px;
+	z-index: -1;
+	background-color: #7effb2;
+	transform-origin: left;
+	transform: scale(0) skew(35deg);
+	transition: transform 1s;
+}
+.order::before{
+	transform: scale(1) skew(35deg);
+}
