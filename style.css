@@ -23,7 +23,6 @@
 	border-radius: 20px 0px 20px 0px;
 	font-size: 40px;
 	text-align: center;
-
 }
 .nav1{
 	display: flex;
@@ -40,10 +39,15 @@
 	right: 20px;
 	color: whitesmoke;
 }
-.img2{
-	font-size: 20px;
-	width: 150px;
-	height: 150px;
+.div1{
+	display: grid;
+	grid-template-columns:repeat(2, 2fr) ;
+
+
+
+
+
+
 }
 .men1{
 	font-size: 50px;
@@ -90,5 +94,8 @@
 }
 html{
 	background: linear-gradient(24deg , #101517 , #1d2327);
+
+}
+.img{
 
 }
